@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои путешествия</title>
+    <style>
+        /* Общие настройки */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Шапка */
+        header {
+            background-color: #00bcd4;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Меню */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 15px 0 0 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Основной контент */
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        #about { background-color: #ffffff; }
+        #places { background-color: #e0f7fa; }
+        #plans { background-color: #fff3e0; }
+
+        h2 {
+            color: #004d66;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #0077b6;
+            margin-bottom: 10px;
+        }
+
+        /* Выделение текста */
+        .highlight {
+            color: #d84315;
+            font-weight: bold;
+        }
+
+        /* Списки */
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        /* Подвал */
+        footer {
+            background-color: #00bcd4;
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+        }
+
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Мои путешествия</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">О проекте</a></li>
+            <li><a href="#places">Любимые места</a></li>
+            <li><a href="#plans">Планы</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>О чём этот сайт</h2>
+        <p>
+            Этот сайт посвящён моим <span class="highlight">путешествиям</span> по России и миру.
+            Каждое путешествие дарит новые впечатления и эмоции.
+            Здесь я делюсь историями о местах, которые меня вдохновили.
+        </p>
+    </section>
+
+    <section id="places">
+        <h2>Мои любимые места</h2>
+
+        <article>
+            <h3>Санкт-Петербург</h3>
+            <p>
+                Город белых ночей и вдохновения. Особенно люблю прогулки по Невскому проспекту
+                и виды с Дворцового моста.
+            </p>
+        </article>
+
+        <article>
+            <h3>Грузия</h3>
+            <p>
+                Тёплая страна с гостеприимными людьми и невероятными горами.
+                Хачапури и Кахетинское вино — незабываемые впечатления!
+            </p>
+            <ul>
+                <li>Город: <span class="highlight">Тбилиси</span></li>
+                <li>Любимое место: <span class="highlight">крепость Нарикала</span></li>
+                <li>Лучшее время для поездки: <span class="highlight">весна</span></li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Байкал</h3>
+            <p>
+                Самое глубокое озеро на планете. Зимой лёд Байкала — как настоящее произведение искусства.
+            </p>
+        </article>
+    </section>
+
+    <section id="plans">
+        <h2>Планы на будущее</h2>
+    
+            Я мечтаю посетить ещё несколько стран и написать серию статей о <span class="highlight">путешествиях по Европе</span>.
+        </p>
+        <ol>
+            <li><span class="highlight">Франция</span> — увидеть Эйфелеву башню</li>
+            <li><span class="highlight">Италия</span> — попробовать настоящую пиццу в Неаполе</li>
+            <li><span class="highlight">Япония</span> — весной, во время цветения сакуры</li>
+        </ol>
+        <p>
+            Больше идей можно найти на сайте 
+            <a href="https://www.lonelyplanet.com/" target="_blank">Lonely Planet</a>.
+        </p>
+    </section>
+</main>
+
+<footer id="contacts">
+    <h2>Контакты</h2>
+    <p>Почта: <a href="mailto:travel@example.com">travel@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com" target="_blank">@travel_blog</a></p>
+    <p>&copy; 2025 Мои путешествия</p>
+</footer>
+
+</body>
+</html>
